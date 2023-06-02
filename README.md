@@ -1,6 +1,8 @@
 # my_app
 
 A new Flutter project.
+
+
 ![image](https://github.com/rohit-sama/my_details_flutter/assets/112627630/880291ec-2947-4c18-bb07-1a92dfa5ebdb)
 
 ## Getting Started
