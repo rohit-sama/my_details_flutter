@@ -40,16 +40,24 @@ class MyApps extends StatelessWidget {
                   margin: EdgeInsets.fromLTRB(50, 10, 50, 10),
                   height: 40,
                   color: Colors.blueGrey,
+                  padding: EdgeInsets.all(10.0),
                   child: Center(
-                    child: Text('Rohit9804@gmail.com'),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [Icon(Icons.email), Text('rohit9804@gmail.com') , Container()],
+                      ),
                   ),
                 ),
                 Container(
                   margin: EdgeInsets.fromLTRB(50, 10, 50, 10),
                   height: 40,
                   color: Colors.blueGrey,
+                  padding: EdgeInsets.all(10.0),
                   child: Center(
-                    child: Text('Twitter : rohitstwts'),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                     children: [Icon(Icons.favorite), Text('Twitter : rohitstwts'), Container() ],
+                    )
                   ),
                 ),
               ],
@@ -60,3 +68,12 @@ class MyApps extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+
+
+
